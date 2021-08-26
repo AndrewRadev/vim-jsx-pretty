@@ -7,12 +7,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " modified from html.vim
-" For matchit plugin
-if exists("loaded_matchit")
-  let b:match_ignorecase = 0
-  let b:match_words = '(:),\[:\],{:},<:>,' .
-        \ '<\@<=\([A-z0-9.]\+\):\(</\)\@<=\1'
-endif
 
 " For andymass/vim-matchup plugin
 if exists("loaded_matchup")
