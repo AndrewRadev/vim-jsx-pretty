@@ -1,3 +1,7 @@
+This fork removes matchit support in order to use the built-in one from Vim's latest runtime files.
+
+<hr>
+
 # vim-jsx-pretty
 
 The React syntax highlighting and indenting plugin for vim. Also supports the typescript tsx file.
@@ -54,7 +58,7 @@ your `~/.vimrc`:
     " or Plug 'leafgarland/typescript-vim'
     Plug 'maxmellon/vim-jsx-pretty'
     ```
-    
+
 - Execute command in vim:
 
     ```vim
